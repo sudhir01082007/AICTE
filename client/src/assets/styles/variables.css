@@ -1,0 +1,40 @@
+:root {
+  /* AICTE Regulatory Theme Palette - IBM Carbon / Enterprise Gov Service */
+  --aicte-navy-dark: #00182b;
+  --aicte-navy: #002d54;
+  --aicte-navy-light: #0d4b85;
+  --aicte-navy-surface: #0a2540;
+  --aicte-blue: #0f62fe;
+  --aicte-blue-hover: #0043ce;
+  --aicte-blue-subtle: #edf5ff;
+  --aicte-gold: #b28900;
+  --aicte-gold-light: #fff8e6;
+
+  /* Neutrals */
+  --aicte-bg: #f4f6f9;
+  --aicte-card-bg: #ffffff;
+  --aicte-surface-subtle: #f8fafc;
+  --aicte-border: #e2e8f0;
+  --aicte-border-strong: #cbd5e1;
+  --aicte-text-main: #1e293b;
+  --aicte-text-secondary: #475569;
+  --aicte-text-muted: #64748b;
+  --aicte-text-disabled: #94a3b8;
+
+  /* Regulatory Status Colors */
+  --aicte-success: #198754;
+  --aicte-success-bg: #e8f5e9;
+  --aicte-warning: #b78103;
+  --aicte-warning-bg: #fff9db;
+  --aicte-danger: #dc3545;
+  --aicte-danger-bg: #fde8e8;
+  --aicte-info: #0284c7;
+  --aicte-info-bg: #e0f2fe;
+
+  /* Typography & Layout */
+  --aicte-font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --aicte-sidebar-width: 260px;
+  --aicte-sidebar-collapsed-width: 76px;
+  --aicte-header-height: 64px;
+  --aicte-transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
