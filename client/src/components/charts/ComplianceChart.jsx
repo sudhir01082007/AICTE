@@ -45,7 +45,7 @@ export default function ComplianceChart({ data = [] }) {
             dataKey="value"
           >
             {data.map((entry, index) => (
-              <Cell key={`cell-${index}`} fill={entry.color || '#0f62fe'} />
+              <Cell key={`cell-${index}`} fill={entry.color || '#2563EB'} />
             ))}
           </Pie>
         </PieChart>

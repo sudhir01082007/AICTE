@@ -1,4 +1,4 @@
-/* Global Style Manifest */
+/* Global Style Manifest - AICTE Regulatory Platform */
 @import 'bootstrap/dist/css/bootstrap.min.css';
 @import './variables.css';
 @import './bootstrap-overrides.css';
@@ -28,19 +28,26 @@
   border-color: var(--aicte-border) !important;
 }
 
+.text-muted {
+  color: var(--aicte-text-muted) !important;
+}
+
+.text-secondary {
+  color: var(--aicte-text-secondary) !important;
+}
+
 /* Custom layout scrollbars */
 ::-webkit-scrollbar {
   width: 6px;
   height: 6px;
 }
 ::-webkit-scrollbar-track {
-  background: #f1f5f9;
+  background: var(--aicte-bg);
 }
 ::-webkit-scrollbar-thumb {
-  background: #cbd5e1;
+  background: var(--aicte-border-strong);
   border-radius: 3px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #94a3b8;
+  background: var(--aicte-text-muted);
 }
-

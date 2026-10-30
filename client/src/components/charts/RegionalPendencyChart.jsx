@@ -36,9 +36,9 @@ export default function RegionalPendencyChart({ data = [] }) {
     <div style={{ width: '100%', height: 260 }}>
       <ResponsiveContainer width="100%" height="100%">
         <BarChart data={data} margin={{ top: 10, right: 15, left: -15, bottom: 0 }}>
-          <CartesianGrid strokeDasharray="3 3" stroke="#f1f5f9" vertical={false} />
-          <XAxis dataKey="region" tick={{ fontSize: 11, fill: '#64748b' }} axisLine={{ stroke: '#e2e8f0' }} />
-          <YAxis tick={{ fontSize: 12, fill: '#64748b' }} axisLine={{ stroke: '#e2e8f0' }} />
+          <CartesianGrid strokeDasharray="3 3" stroke="#E5E7EB" vertical={false} />
+          <XAxis dataKey="region" tick={{ fontSize: 11, fill: '#98A2B3' }} axisLine={{ stroke: '#E5E7EB' }} />
+          <YAxis tick={{ fontSize: 12, fill: '#98A2B3' }} axisLine={{ stroke: '#E5E7EB' }} />
           <Tooltip content={<CustomTooltip />} />
           <Legend
             verticalAlign="top"
@@ -46,9 +46,9 @@ export default function RegionalPendencyChart({ data = [] }) {
             iconType="circle"
             wrapperStyle={{ fontSize: '0.75rem', paddingBottom: 10 }}
           />
-          <Bar dataKey="compliant" name="Compliant / Cleared" fill="#198754" radius={[4, 4, 0, 0]} barSize={14} />
-          <Bar dataKey="pending" name="Within SLA Pending" fill="#0f62fe" radius={[4, 4, 0, 0]} barSize={14} />
-          <Bar dataKey="overdue" name="SLA Overdue" fill="#da1e28" radius={[4, 4, 0, 0]} barSize={14} />
+          <Bar dataKey="compliant" name="Compliant / Cleared" fill="#16845B" radius={[4, 4, 0, 0]} barSize={14} />
+          <Bar dataKey="pending" name="Within SLA Pending" fill="#2563EB" radius={[4, 4, 0, 0]} barSize={14} />
+          <Bar dataKey="overdue" name="SLA Overdue" fill="#C62836" radius={[4, 4, 0, 0]} barSize={14} />
         </BarChart>
       </ResponsiveContainer>
     </div>

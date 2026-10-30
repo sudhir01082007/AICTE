@@ -32,19 +32,19 @@ export default function WorkflowDistributionChart({ data = [] }) {
           data={data}
           margin={{ top: 10, right: 25, left: 25, bottom: 0 }}
         >
-          <CartesianGrid strokeDasharray="3 3" stroke="#f1f5f9" horizontal={false} />
-          <XAxis type="number" tick={{ fontSize: 12, fill: '#64748b' }} axisLine={{ stroke: '#e2e8f0' }} />
+          <CartesianGrid strokeDasharray="3 3" stroke="#E5E7EB" horizontal={false} />
+          <XAxis type="number" tick={{ fontSize: 12, fill: '#98A2B3' }} axisLine={{ stroke: '#E5E7EB' }} />
           <YAxis
             type="category"
             dataKey="name"
-            tick={{ fontSize: 11, fill: '#475569' }}
-            axisLine={{ stroke: '#e2e8f0' }}
+            tick={{ fontSize: 11, fill: '#667085' }}
+            axisLine={{ stroke: '#E5E7EB' }}
             width={120}
           />
           <Tooltip content={<CustomTooltip />} />
           <Bar dataKey="count" radius={[0, 4, 4, 0]} barSize={18}>
             {data.map((entry, index) => (
-              <Cell key={`cell-${index}`} fill={entry.color || '#0f62fe'} />
+              <Cell key={`cell-${index}`} fill={entry.color || '#2563EB'} />
             ))}
           </Bar>
         </BarChart>

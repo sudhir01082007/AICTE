@@ -15,29 +15,29 @@ export default function StatCard({
 }) {
   const variantStyles = {
     primary: {
-      borderColor: '#0f62fe',
-      iconBg: '#edf5ff',
-      iconColor: '#0f62fe',
+      borderColor: '#2563EB',
+      iconBg: '#EFF6FF',
+      iconColor: '#2563EB',
     },
     warning: {
-      borderColor: '#b28900',
-      iconBg: '#fff8e6',
-      iconColor: '#b28900',
+      borderColor: '#D69E18',
+      iconBg: '#FEF9C3',
+      iconColor: '#D69E18',
     },
     danger: {
-      borderColor: '#da1e28',
-      iconBg: '#fff1f1',
-      iconColor: '#da1e28',
+      borderColor: '#C62836',
+      iconBg: '#FEF2F2',
+      iconColor: '#C62836',
     },
     success: {
-      borderColor: '#198754',
-      iconBg: '#e8f5e9',
-      iconColor: '#198754',
+      borderColor: '#16845B',
+      iconBg: '#ECFDF5',
+      iconColor: '#16845B',
     },
     info: {
-      borderColor: '#0284c7',
-      iconBg: '#e0f2fe',
-      iconColor: '#0284c7',
+      borderColor: '#2563EB',
+      iconBg: '#EFF6FF',
+      iconColor: '#2563EB',
     },
   };
 

@@ -1,37 +1,58 @@
 :root {
-  /* AICTE Regulatory Theme Palette - IBM Carbon / Enterprise Gov Service */
-  --aicte-navy-dark: #00182b;
-  --aicte-navy: #002d54;
-  --aicte-navy-light: #0d4b85;
-  --aicte-navy-surface: #0a2540;
-  --aicte-blue: #0f62fe;
-  --aicte-blue-hover: #0043ce;
-  --aicte-blue-subtle: #edf5ff;
-  --aicte-gold: #b28900;
-  --aicte-gold-light: #fff8e6;
+  /* AICTE Enterprise Institutional Design Tokens */
+  --aicte-navy: #142B4A;
+  --aicte-navy-dark: #0D1E36;
+  --aicte-navy-light: #1F385C;
+  --aicte-navy-surface: #15191F;
+  --aicte-blue: #2563EB;
+  --aicte-blue-hover: #1D4ED8;
+  --aicte-blue-subtle: #EFF6FF;
+  --aicte-red: #C62836;
+  --aicte-red-hover: #A81F2B;
+  --aicte-red-subtle: #FEF2F2;
+  --aicte-gold: #D69E18;
+  --aicte-gold-light: #FEF9C3;
 
-  /* Neutrals */
-  --aicte-bg: #f4f6f9;
-  --aicte-card-bg: #ffffff;
-  --aicte-surface-subtle: #f8fafc;
-  --aicte-border: #e2e8f0;
-  --aicte-border-strong: #cbd5e1;
-  --aicte-text-main: #1e293b;
-  --aicte-text-secondary: #475569;
-  --aicte-text-muted: #64748b;
-  --aicte-text-disabled: #94a3b8;
+  /* Surfaces & Neutrals */
+  --aicte-bg: #F5F7FA;
+  --aicte-card-bg: #FFFFFF;
+  --aicte-surface-subtle: #F8FAFC;
+  --aicte-surface-dark: #15191F;
+  --aicte-border: #E5E7EB;
+  --aicte-border-strong: #D0D5DD;
+  --aicte-text-main: #17202C;
+  --aicte-text-secondary: #667085;
+  --aicte-text-muted: #98A2B3;
+  --aicte-text-disabled: #CBD5E1;
+
+  /* Header & Navigation Surfaces */
+  --aicte-header-bg: #142B4A;
+  --aicte-header-border: #1E3A5F;
+  --aicte-sidebar-bg: #15191F;
+  --aicte-sidebar-border: #232A34;
+  --aicte-sidebar-active: #2563EB;
+  --aicte-sidebar-hover: rgba(255, 255, 255, 0.06);
 
   /* Regulatory Status Colors */
-  --aicte-success: #198754;
-  --aicte-success-bg: #e8f5e9;
-  --aicte-warning: #b78103;
-  --aicte-warning-bg: #fff9db;
-  --aicte-danger: #dc3545;
-  --aicte-danger-bg: #fde8e8;
-  --aicte-info: #0284c7;
-  --aicte-info-bg: #e0f2fe;
+  --aicte-success: #16845B;
+  --aicte-success-bg: #ECFDF5;
+  --aicte-warning: #D69E18;
+  --aicte-warning-bg: #FEF9C3;
+  --aicte-danger: #C62836;
+  --aicte-danger-bg: #FEF2F2;
+  --aicte-info: #2563EB;
+  --aicte-info-bg: #EFF6FF;
 
-  /* Typography & Layout */
+  /* Charts & Data Viz Palette */
+  --aicte-chart-primary: #2563EB;
+  --aicte-chart-secondary: #16845B;
+  --aicte-chart-accent: #C62836;
+  --aicte-chart-warning: #D69E18;
+  --aicte-chart-purple: #7C3AED;
+  --aicte-chart-teal: #0D9488;
+  --aicte-chart-grid: #E5E7EB;
+
+  /* Typography & Layout Metrics (Preserved) */
   --aicte-font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   --aicte-sidebar-width: 260px;
   --aicte-sidebar-collapsed-width: 76px;

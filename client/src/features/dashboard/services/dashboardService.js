@@ -34,11 +34,11 @@ const DEMO_APPLICATION_TRENDS = [
 ];
 
 const DEMO_STAGE_DISTRIBUTION = [
-  { name: 'Scrutiny Committee', count: 168, color: '#0f62fe' },
-  { name: 'Re-Scrutiny', count: 74, color: '#8a3ffc' },
-  { name: 'EVC Inspection', count: 58, color: '#0072c3' },
-  { name: 'Regional Committee', count: 67, color: '#009d9a' },
-  { name: 'SAC / SHC', count: 45, color: '#1192e8' },
+  { name: 'Scrutiny Committee', count: 168, color: '#2563EB' },
+  { name: 'Re-Scrutiny', count: 74, color: '#7C3AED' },
+  { name: 'EVC Inspection', count: 58, color: '#0D9488' },
+  { name: 'Regional Committee', count: 67, color: '#142B4A' },
+  { name: 'SAC / SHC', count: 45, color: '#D69E18' },
 ];
 
 const DEMO_REGIONAL_PENDENCY = [
@@ -51,9 +51,9 @@ const DEMO_REGIONAL_PENDENCY = [
 ];
 
 const DEMO_COMPLIANCE_STATUS = [
-  { name: 'Verified / Compliant', value: 248, color: '#198754' },
-  { name: 'Pending Review', value: 68, color: '#b28900' },
-  { name: 'Overdue / Escalated', value: 24, color: '#da1e28' },
+  { name: 'Verified / Compliant', value: 248, color: '#16845B' },
+  { name: 'Pending Review', value: 68, color: '#D69E18' },
+  { name: 'Overdue / Escalated', value: 24, color: '#C62836' },
 ];
 
 export const DEMO_APPLICATIONS = APPLICATIONS;

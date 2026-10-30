@@ -60,7 +60,7 @@ export default function Header({ sidebarCollapsed, onToggleSidebar }) {
   };
 
   return (
-    <Navbar bg="dark" variant="dark" expand="lg" className="border-bottom border-secondary shadow-sm py-2 sticky-top" style={{ zIndex: 1030 }}>
+    <Navbar variant="dark" expand="lg" className="aicte-header shadow-sm py-2 sticky-top" style={{ zIndex: 1030 }}>
       <Container fluid className="px-3 px-md-4">
         {/* Sidebar Toggle & Branding */}
         <div className="d-flex align-items-center gap-3">

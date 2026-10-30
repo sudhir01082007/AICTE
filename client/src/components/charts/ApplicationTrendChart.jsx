@@ -38,21 +38,21 @@ export default function ApplicationTrendChart({ data = [] }) {
         <AreaChart data={data} margin={{ top: 10, right: 15, left: -15, bottom: 0 }}>
           <defs>
             <linearGradient id="colorTotal" x1="0" y1="0" x2="0" y2="1">
-              <stop offset="5%" stopColor="#0f62fe" stopOpacity={0.25} />
-              <stop offset="95%" stopColor="#0f62fe" stopOpacity={0.0} />
+              <stop offset="5%" stopColor="#2563EB" stopOpacity={0.25} />
+              <stop offset="95%" stopColor="#2563EB" stopOpacity={0.0} />
             </linearGradient>
             <linearGradient id="colorCompleted" x1="0" y1="0" x2="0" y2="1">
-              <stop offset="5%" stopColor="#198754" stopOpacity={0.25} />
-              <stop offset="95%" stopColor="#198754" stopOpacity={0.0} />
+              <stop offset="5%" stopColor="#16845B" stopOpacity={0.25} />
+              <stop offset="95%" stopColor="#16845B" stopOpacity={0.0} />
             </linearGradient>
             <linearGradient id="colorPending" x1="0" y1="0" x2="0" y2="1">
-              <stop offset="5%" stopColor="#da1e28" stopOpacity={0.25} />
-              <stop offset="95%" stopColor="#da1e28" stopOpacity={0.0} />
+              <stop offset="5%" stopColor="#C62836" stopOpacity={0.25} />
+              <stop offset="95%" stopColor="#C62836" stopOpacity={0.0} />
             </linearGradient>
           </defs>
-          <CartesianGrid strokeDasharray="3 3" stroke="#f1f5f9" vertical={false} />
-          <XAxis dataKey="month" tick={{ fontSize: 12, fill: '#64748b' }} axisLine={{ stroke: '#e2e8f0' }} />
-          <YAxis tick={{ fontSize: 12, fill: '#64748b' }} axisLine={{ stroke: '#e2e8f0' }} />
+          <CartesianGrid strokeDasharray="3 3" stroke="#E5E7EB" vertical={false} />
+          <XAxis dataKey="month" tick={{ fontSize: 12, fill: '#98A2B3' }} axisLine={{ stroke: '#E5E7EB' }} />
+          <YAxis tick={{ fontSize: 12, fill: '#98A2B3' }} axisLine={{ stroke: '#E5E7EB' }} />
           <Tooltip content={<CustomTooltip />} />
           <Legend
             verticalAlign="top"
@@ -64,7 +64,7 @@ export default function ApplicationTrendChart({ data = [] }) {
             type="monotone"
             dataKey="total"
             name="Total Received"
-            stroke="#0f62fe"
+            stroke="#2563EB"
             strokeWidth={2}
             fillOpacity={1}
             fill="url(#colorTotal)"
@@ -73,7 +73,7 @@ export default function ApplicationTrendChart({ data = [] }) {
             type="monotone"
             dataKey="completed"
             name="Completed / Approved"
-            stroke="#198754"
+            stroke="#16845B"
             strokeWidth={2}
             fillOpacity={1}
             fill="url(#colorCompleted)"
@@ -82,7 +82,7 @@ export default function ApplicationTrendChart({ data = [] }) {
             type="monotone"
             dataKey="pending"
             name="In-Progress"
-            stroke="#da1e28"
+            stroke="#C62836"
             strokeWidth={2}
             fillOpacity={1}
             fill="url(#colorPending)"
