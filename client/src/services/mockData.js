@@ -1,12 +1,12 @@
 /**
- * Master Synthetic Regulatory Dataset for AICTE PS 26262 Demo Mode
+ * Master Synthetic Regulatory Dataset for AICTE Approval Management System - Demo Mode
  * Guaranteed referential integrity across all pages:
  * - Application IDs (APP-2026-xxxx)
  * - Institutions (PID-xxxx)
  * - Stage states, deficiencies, undertakings, EVC visits, and hash-chained audit logs.
  */
 
-export const DEMO_NOTICE = 'DEMO MODE: Synthetic Demonstration Data (AICTE PS 26262)';
+export const DEMO_NOTICE = 'DEMO MODE: Synthetic Demonstration Data';
 
 export const INSTITUTIONS = [
   {

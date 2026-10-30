@@ -90,14 +90,14 @@ export default function Sidebar({ collapsed }) {
         ))}
       </div>
 
-      {/* Footer System Version */}
+      {/* Sidebar Branding */}
       <div className="p-3 border-top border-secondary border-opacity-25 text-secondary small text-center">
         {collapsed ? (
-          <span style={{ fontSize: '0.65rem' }}>v1.0</span>
+          <span className="fw-bold" style={{ fontSize: '0.65rem' }}>AICTE</span>
         ) : (
           <div className="d-flex flex-column align-items-center">
-            <span className="fw-semibold text-slate-300" style={{ fontSize: '0.75rem' }}>AICTE Portal v1.0</span>
-            <span className="text-secondary" style={{ fontSize: '0.65rem' }}>SIH 2026 PS 26262</span>
+            <span className="fw-bold text-light" style={{ fontSize: '0.75rem', letterSpacing: '0.04em' }}>AICTE</span>
+            <span className="text-secondary" style={{ fontSize: '0.625rem' }}>Approval Management System</span>
           </div>
         )}
       </div>

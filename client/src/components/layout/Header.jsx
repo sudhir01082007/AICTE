@@ -109,30 +109,30 @@ export default function Header({ sidebarCollapsed, onToggleSidebar }) {
 
         {/* Actions & Profile */}
         <Nav className="align-items-center gap-2">
-          {/* Honest Real-Time Backend API Status Indicator */}
+          {/* System Status Indicator */}
           <div className="d-none d-lg-flex align-items-center gap-2 px-2 py-1 rounded bg-dark border border-secondary text-secondary small" style={{ fontSize: '0.75rem' }}>
             {apiOnline === null ? (
               <>
                 <span className="badge bg-warning rounded-circle p-1 animate-pulse" style={{ width: 6, height: 6 }} />
-                <span>API: Probing...</span>
+                <span>Connecting...</span>
               </>
             ) : apiOnline ? (
               <>
                 <span className="badge bg-success rounded-circle p-1" style={{ width: 6, height: 6 }} />
-                <span className="text-success-emphasis">API: Connected (Port 4000)</span>
+                <span className="text-success-emphasis">System: Connected</span>
               </>
             ) : (
               <>
                 <span className="badge bg-danger rounded-circle p-1" style={{ width: 6, height: 6 }} />
-                <span className="text-danger">API: Offline</span>
+                <span className="text-danger">System: Disconnected</span>
               </>
             )}
           </div>
 
-          {/* Transparent DEMO MODE Badge */}
+          {/* Demo Mode Badge */}
           <div className="d-none d-md-block">
             <Badge bg="warning" text="dark" className="font-monospace px-2 py-1" style={{ fontSize: '0.65rem' }}>
-              DEMO DATA (PS 26262)
+              DEMO DATA
             </Badge>
           </div>
 

@@ -7,7 +7,7 @@ import { APPLICATIONS } from '../../../services/mockData';
  * Uses clearly identified synthetic demonstration defaults when backend database is pending migrations.
  */
 
-export const MOCK_INDICATOR = '[SYNTHETIC DEMONSTRATION DATA - AICTE PS 26262]';
+export const MOCK_INDICATOR = '[SYNTHETIC DEMONSTRATION DATA]';
 
 const DEMO_KPI_DATA = {
   totalApplications: 1248,
